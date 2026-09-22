@@ -24,6 +24,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	libmysqlclient-dev \
 	libhiredis-dev \
 	libyaml-cpp-dev \
+	libbrotli-dev \
+	coz-profiler \
 	uuid-dev \
 	ca-certificates \
 	&& rm -rf /var/lib/apt/lists/*
